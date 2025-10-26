@@ -1,0 +1,82 @@
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.container {
+  max-width: 600px;
+  background: #fff;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.song-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.song-cover {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.youtube-link {
+  display: inline-block;
+  color: #0077ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.youtube-link:hover {
+  text-decoration: underline;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.download-section {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.download-btn {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  transform: scale(1.05);
+}
+
+.lyrics-section {
+  margin-top: 25px;
+}
+
+.lyrics-title {
+  font-size: 20px;
+  font-family: "Tahoma";
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.lyrics {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  font-family: "Vazirmatn", sans-serif;
+}

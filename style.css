@@ -3,7 +3,11 @@ body {
   background: #f4f4f4;
   margin: 0;
   padding: 0;
-  direction: rtl;
+  direction: rtl; 
+  
+  padding-left: 0.9cm;
+  padding-right:0.9cm;
+
 }
 
 .container {

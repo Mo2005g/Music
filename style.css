@@ -4,10 +4,10 @@ body {
   margin: 0;
   padding: 0;
   direction: rtl; 
-  
+  body {
   padding-left: 0.9cm;
   padding-right:0.9cm;
-
+  } 
 }
 
 .container {

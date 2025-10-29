@@ -1,17 +1,21 @@
+
 body {
   font-family: "Vazirmatn", sans-serif;
   background: #f4f4f4;
   margin: 0;
   padding: 0;
   direction: rtl; 
-
-}
-  body {
+  
   padding-left: 0.9cm;
   padding-right:0.9cm;
-  } 
-.container {
 
+}
+
+.container {
+  body {
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+}
   max-width: 600px;
   background: #fff;
   margin: 30px auto;
